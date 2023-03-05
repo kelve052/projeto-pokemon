@@ -1,0 +1,14 @@
+.div_h1{
+    display: flex;
+    justify-content: center;
+    padding: 24px 16px;
+    column-gap: 12px;
+    align-items: center;
+}
+.div_h1 h1{
+    color: #3d3c3c;
+    font-size: 42px;
+}
+.div_h1 span{
+    color: rgb(212, 50, 50);
+}
