@@ -3,7 +3,7 @@ import Image from "next/image"
 import style from '../../styles/cardsId.module.css'
 
 export async function getStaticPaths(){
-    const limit = 251
+    const limit = 300
     const dados = await fetch(`https://pokeapi.co/api/v2/pokemon/?limit=${limit}`)
     const resposta_json = await dados.json()
 
