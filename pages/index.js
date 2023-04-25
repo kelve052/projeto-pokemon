@@ -22,7 +22,7 @@ export default function Home({pokemons}) {
   return (
     <>
       <div className={styles.div_h1}>
-        <h1>Poke<span>Next</span></h1>
+        <h1>Poke1111<span>Next</span></h1>
         <Image src='/Imagens/pokeball.png' width='40' height='40'/>
       </div>
       <div className={style.cardglobal}>
